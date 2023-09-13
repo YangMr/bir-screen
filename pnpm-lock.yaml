@@ -8,6 +8,9 @@ dependencies:
   axios:
     specifier: ^1.5.0
     version: registry.npmmirror.com/axios@1.5.0
+  echarts:
+    specifier: ^5.4.3
+    version: registry.npmmirror.com/echarts@5.4.3
   js-cookie:
     specifier: ^3.0.5
     version: registry.npmmirror.com/js-cookie@3.0.5
@@ -2049,6 +2052,15 @@ packages:
     name: eastasianwidth
     version: 0.2.0
     dev: true
+
+  registry.npmmirror.com/echarts@5.4.3:
+    resolution: {integrity: sha512-mYKxLxhzy6zyTi/FaEbJMOZU1ULGEQHaeIeuMR5L+JnJTpz+YR03mnnpBhbR4+UYJAgiXgpyTVLffPAjOTLkZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/echarts/-/echarts-5.4.3.tgz}
+    name: echarts
+    version: 5.4.3
+    dependencies:
+      tslib: registry.npmmirror.com/tslib@2.3.0
+      zrender: registry.npmmirror.com/zrender@5.4.4
+    dev: false
 
   registry.npmmirror.com/emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/emoji-regex/-/emoji-regex-8.0.0.tgz}
@@ -4974,6 +4986,12 @@ packages:
     version: 1.14.1
     dev: true
 
+  registry.npmmirror.com/tslib@2.3.0:
+    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tslib/-/tslib-2.3.0.tgz}
+    name: tslib
+    version: 2.3.0
+    dev: false
+
   registry.npmmirror.com/tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tslib/-/tslib-2.6.2.tgz}
     name: tslib
@@ -5435,3 +5453,11 @@ packages:
     version: 0.1.0
     engines: {node: '>=10'}
     dev: true
+
+  registry.npmmirror.com/zrender@5.4.4:
+    resolution: {integrity: sha512-0VxCNJ7AGOMCWeHVyTrGzUgrK4asT4ml9PEkeGirAkKNYXYzoPJCLvmyfdoOXcjTHPs10OZVMfD1Rwg16AZyYw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/zrender/-/zrender-5.4.4.tgz}
+    name: zrender
+    version: 5.4.4
+    dependencies:
+      tslib: registry.npmmirror.com/tslib@2.3.0
+    dev: false
